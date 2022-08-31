@@ -33,7 +33,6 @@ const WebcamCapture = () => {
         return () => clearInterval(interval);
     },[])
     
-
     return (
     <div>
     <Webcam
@@ -47,11 +46,8 @@ const WebcamCapture = () => {
     <div>
         {status}
     </div>
-    {/* <button onClick={capture}>Click Me!</button>
-    <h2>{name}</h2> */}
     </div>
     );
-  
 };
 
 export default WebcamCapture;
