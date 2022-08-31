@@ -2,7 +2,7 @@
 React and flask app
 
 #To run front-end
->> npm start
+> npm start
 
 #To run backend
->> python app.py
+> python app.py
